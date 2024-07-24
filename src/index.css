@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*
+{
+  @apply m-0 p-0 box-border
+}
+
+body,html
+{
+  @apply w-full h-full text-white font-sans
+}
+body,html
+{
+  background: url("https://i.ytimg.com/vi/RRVUWx1tfWw/maxresdefault.jpg");
+  background-size: cover;
+  background-position: center; 
+}
+
+.glass
+{
+  background: linear-gradient(13deg , rgba(197, 187, 187, 0.1),rgba(146, 139, 139, 0.1));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255,0.18);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.37);
+}
+
+.textshadow
+{
+  text-shadow: white 12px -24px 20px
+}
