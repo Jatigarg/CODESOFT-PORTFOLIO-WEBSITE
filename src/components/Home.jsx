@@ -1,5 +1,6 @@
 import React from 'react'
 import { ReactTyped } from "react-typed";
+import jatin from '../../public/jatin.png'
 
 function Home() {
     return (
@@ -105,7 +106,7 @@ function Home() {
                 </div>
 
                 <div className=' w-1/2 '>
-                    <img className='w-[60%] h-auto ml-36' src="../../jatin.png" alt="Profile picture" />
+                    <img className='w-[60%] h-auto ml-36' src={jatin} alt="Profile picture" />
                 </div>
 
             </div>

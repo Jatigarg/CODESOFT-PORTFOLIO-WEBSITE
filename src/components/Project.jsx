@@ -1,4 +1,8 @@
 import React from 'react';
+import landingpage from '../../public/ln.png'
+import bookstore from '../../public/bk.png'
+import calculator from '../../public/cl.png'
+import portfolio from '../../public/po.png'
 
 function Project() {
     return (
@@ -20,7 +24,7 @@ function Project() {
                     {/* hover effect */}
 
                     <div className='relative rounded-xl cursor-pointer'>
-                        <img className='h-auto w-full rounded-xl' src="../../v1.png" alt="" />
+                        <img className='h-auto w-full rounded-xl' src={landingpage} alt="" />
 
                         <div className='absolute top-0 right-0 w-full h-full glass bg-opacity-50 opacity-0 hover:opacity-100 transition duration-300 ease-in-out  px-6 py-8'>
 
@@ -49,7 +53,7 @@ function Project() {
                     {/* hover effect */}
 
                     <div className='relative  cursor-pointer'>
-                        <img className='h-auto w-full rounded-xl' src="../../v2.png" alt="" />
+                        <img className='h-auto w-full rounded-xl' src={calculator} alt="" />
 
                         <div className='absolute top-0 right-0 w-full h-full glass bg-opacity-50 opacity-0 hover:opacity-100 transition duration-300 ease-in-out  px-6 py-8'>
 
@@ -78,7 +82,7 @@ function Project() {
                     {/* hover effect */}
 
                     <div className='relative rounded-xl cursor-pointer'>
-                        <img className='h-auto w-full rounded-xl' src="../../v3.png" alt="" />
+                        <img className='h-auto w-full rounded-xl' src={bookstore} alt="" />
 
                         <div className='absolute top-0 right-0 w-full h-full glass bg-opacity-50 opacity-0 hover:opacity-100 transition duration-300 ease-in-out px-6 py-8'>
 
@@ -107,7 +111,7 @@ function Project() {
                     {/* hover effect */}
 
                     <div className='relative rounded-xl cursor-pointer'>
-                        <img className='h-auto w-full rounded-xl' src="../../v4.png" alt="" />
+                        <img className='h-auto w-full rounded-xl' src={portfolio} alt="" />
 
                         <div className='absolute top-0 right-0 w-full h-full glass bg-opacity-50 opacity-0 hover:opacity-100 transition duration-300 ease-in-out l px-6 py-8'>
 

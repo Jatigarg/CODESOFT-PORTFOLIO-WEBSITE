@@ -5,23 +5,23 @@ function Certificate() {
   const img = [
     {
       id: 1,
-      src: "../../1.png"
+      src: "../../public/1.png"
     },
     {
       id: 2,
-      src: "../../2.png"
+      src: "../../public/2.png"
     },
     {
       id: 3,
-      src: "../../3.png"
+      src: "../../public/3.png"
     },
     {
       id: 4,
-      src: "../../4.png"
+      src: "../../public/4.png"
     },
     {
       id: 5,
-      src: "../../5.png"
+      src: "../../public/5.png"
     },
   ];
 

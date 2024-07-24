@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
+import jatin from '../../public/jatin.png'
 
 function Navbar() {
   return (
@@ -8,7 +9,7 @@ function Navbar() {
 
       <div className='flex items-center'>
 
-        <img className='w-[7%] mr-4' src="../../jatin.png" alt="" />
+        <img className='w-[7%] mr-4' src={jatin} alt="" />
         <h1 className='cursor-pointer text-2xl'>Jatin Garg <p className='text-sm'>Web Developer and Programer</p></h1>
 
       </div>
